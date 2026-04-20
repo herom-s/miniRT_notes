@@ -1,2 +1,1 @@
-
-Surface is a matematical model
+- Surface in mathematics is a generalization of the [Plane](Plane.md), but not like the plane it can be [Curved](Curved.md), surfaces are often defined by a [Equation](Equation.md) that satisfied by the coordinates of its points.
