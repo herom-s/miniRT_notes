@@ -20,8 +20,7 @@ m_{xz} & m_{yz} & m_{zz}
 x \\ 
 y \\ 
 z 
-\end{bmatrix} 
-\+ 2
+\end{bmatrix}+2
 \begin{bmatrix}
 m_{x} & m_{y} & m_{z}
 \end{bmatrix}
@@ -29,8 +28,7 @@ m_{x} & m_{y} & m_{z}
 x \\
 y \\
 z
-\end{bmatrix}
-\+ m_{0} = 0
+\end{bmatrix}+m_{0} = 0
 $$
 
 Which we can write compactly as:
