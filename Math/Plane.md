@@ -1,0 +1,6 @@
+- The plane is a mathematical object representing the the entire space of $\mathbb{R}^2$ it has infinite length and can be defined in the following form in $\mathbb{R}^3$:
+- $$ax+by+cz+d=0$$
+- As $a$,$b$ and $c$ being [Coefficients](Coefficient.md), $x$, $y$, $z$ being the [Linear](Linear.md) terms, the $d$ [Constant](Constant.md) is defined as following $d = -ax_{0}-by_{0}-cz_{0}$ being $x_{0}$, $y_{0}$, $z_{0}$ a reference point on the plane. It will also have a interception point defined as $x=-\frac{d}{a}$, $y=-\frac{d}{b}$ and $z=-\frac{d}{c}$.
+- We can also use $n$ as [Normal Vector](Normal Vector.md) to represent the [Vector](Vector.md) [Equation](Equation.md) of the plane [surface](Surface):
+- $$n\cdot(x-x_{0})=0$$
+- Having a $x_{0}$, $y_{0}$ and $z_{0}$ representing a know reference point on the plane and $x$ a unknown point that can lie or not in the plane.
