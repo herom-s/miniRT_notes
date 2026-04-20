@@ -1,6 +1,13 @@
-- The plane is a mathematical object representing the the entire space of $\mathbb{R}^2$ it has infinite length and can be defined in the following form in $\mathbb{R}^3$:
-- $$ax+by+cz+d=0$$
-- As $a$,$b$ and $c$ being [Coefficients](Coefficient.md), $x$, $y$, $z$ being the [Linear](Linear.md) terms, the $d$ [Constant](Constant.md) is defined as following $d = -ax_{0}-by_{0}-cz_{0}$ being $x_{0}$, $y_{0}$, $z_{0}$ a reference point on the plane. It will also have a interception point defined as $x=-\frac{d}{a}$, $y=-\frac{d}{b}$ and $z=-\frac{d}{c}$.
-- We can also use $n$ as [Normal Vector](Normal Vector.md) to represent the [Vector](Vector.md) [Equation](Equation.md) of the plane [surface](Surface):
-- $$n\cdot(x-x_{0})=0$$
-- Having a $x_{0}$, $y_{0}$ and $z_{0}$ representing a know reference point on the plane and $x$ a unknown point that can lie or not in the plane.
+A plane is a [2-D Surface](2-D Surface.md) that extends infinitely and can be embedded in $\mathbb{R}^3$. It can be described by the equation:
+$$ax+by+cz+d=0$$
+where $a$,$b$ and $c$ are [coefficients](Coefficient.md), and $x$, $y$, $z$ are the [variables](Variable.md).
+If a point $(x_{0}, y_{0}, z_{0})$ lies in the plane we define the $d$ [constant](Constant.md) being $d = -ax_{0}-by_{0}-cz_{0}$.
+Given d, the plane intercepts the coordinate axes at the points $x=−\frac{a}{d}​$, $y=−\frac{b}{d}​$, and $z=−\frac{c}{d}​$.
+Substituting $d$ in the equation we will have
+$$
+a(x-x_{0})+b(y-y_{0})+c(z-z_{0})=0
+$$
+transforming $(x, y, z)$ in the vector $r$ and $(x_{0}, y_{0}, z_{0})$ in $r_{0}$
+Let $n$ be a [normal vector](Normal Vector.md) to the plane. Then the [Vector](Vector.md) [Equation](Equation.md) of plane is
+$$n\cdot(x-x_{0})=0$$
+where $(x_{0}, y_{0}, z_{0})$ is a known point on the plane and $x$ is any point in space.
